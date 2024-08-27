@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #b22222; /* Fundo vermelho */
+    background-color: #7c0505; /* Fundo vermelho */
     color: #fff; /* Cor do texto principal */
     display: flex;
     justify-content: center;
@@ -11,26 +11,26 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: #ad1138;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 700px;
     width: 100%;
-    color: #333; /* Cor do texto dentro do container */
+    color: #b9051d; /* Cor do texto dentro do container */
     position: relative;
     z-index: 1;
 }
 
 h1 {
-    color: #9b061f;
+    color: #e6e6e6;
     margin-bottom: 10px;
     font-size: 2.5em;
 }
 
 h2 {
-    color: #9b061f;
+    color: #ffffff;
     margin-bottom: 20px;
     font-size: 1.5em;
 }
@@ -38,7 +38,7 @@ h2 {
 p {
     font-size: 1.2em;
     margin: 0;
-    color: #9b061f;
+    color: #f7f7f7;
 }
 
 .photo-gallery {
@@ -61,14 +61,14 @@ p {
 }
 
 .quote {
-    background-color: #990202;
+    background-color: #8b001e;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     font-size: 1.3em;
     line-height: 1.5;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(243, 240, 240, 0.1);
 }
 
 .quote p {
@@ -92,7 +92,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('coração.png') no-repeat;
+    background: url('coração.png');
     background-size: 20px 20px;
     animation: fall 10s linear infinite;
 }
